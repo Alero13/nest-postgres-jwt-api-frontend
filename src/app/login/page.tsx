@@ -8,11 +8,11 @@ const LoginPage = () => {
   const [errors, setErrors] = useState<string[]>([]);
   
   /* const [email, setEmail] = useState<string>("test@test.com"); */
-  const [email, setEmail] = useState("admin@gmail.com");
+  const [email, setEmail] = useState("");
 
   //const [password, setPassword] = useState<string>("123123");
 
-  const [password, setPassword] = useState("654321");
+  const [password, setPassword] = useState("");
   const router = useRouter();
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
